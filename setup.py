@@ -5,8 +5,10 @@ import sys
 with open("README.md", "r", errors='ignore') as f:
     long_description = f.read()
 
-with open('requirements.txt', 'r', encoding='utf-8', errors='ignore') as ff:
-    required = ff.read().splitlines()
+#with open('requirements.txt', 'r', encoding='utf-8', errors='ignore') as ff:
+#    required = ff.read().splitlines()
+
+required = ['git+https://github.com/andreped/raidionics_seg_lib']
 
 if platform.system() == 'Windows':
     # required.append('antspyx@https://github.com/ANTsX/ANTsPy/releases/download/v0.3.8/antspyx-0.3.8-cp37-cp37m-win_amd64.whl')
