@@ -20,7 +20,7 @@ elif platform.system() == 'Darwin' and platform.processor() == 'arm':   # Specif
     required.append('scikit-learn==1.0.2')
     required.append('statsmodels==0.13.2')
 elif platform.system() == 'Darwin':
-    required.append('antspyx@https://github.com/ANTsX/ANTsPy/releases/download/v0.3.8/antspyx-0.3.8-cp37-cp37m-macosx_10_9_x86_64.whl')
+    required.append('antspyx@https://github.com/ANTsX/ANTsPy/releases/download/v0.3.8/antspyx-0.3.8-cp38-cp38-macosx_10_9_x86_64.whl')
 #     required.append('scikit-learn==1.0.2')
 #     required.append('statsmodels==0.13.2')
 else:
